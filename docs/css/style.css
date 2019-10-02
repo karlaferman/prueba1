@@ -60,8 +60,9 @@ padding: 0;
 }
 .card img{
     height: 300px;
-    width: 320px;
-    margin: 8px;
+    width: 100%;
+
+   
 }
 .fondo{
     background-image: url(../img/2.jpg);
