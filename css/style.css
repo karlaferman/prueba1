@@ -1,0 +1,110 @@
+body{
+    background: #f8f8f8;
+}
+.encabezado{
+    font-size: 2.4rem;
+    font-family: 'lato',sans-serif;
+    color: #000;
+    line-height: 2.4rem;
+}
+/*sociales*/
+.sociales a{
+list-style: none;
+margin: 0;
+padding: 0;
+}
+.sociales a i{
+    position: relative;
+    display: inline-block;
+}
+.sociales a i::before{
+    display: inline-block;
+    vertical-align: top;
+    padding: 0.4rem;
+    font-size: 2rem;
+    color: rgb(156, 0, 141);
+}
+/*menu de navegación*/
+.navegacion{
+    background-color: rgb(163, 137, 50);
+}
+.navbar-light .navbar-brand, .navbar-light .navbar-brand:hover{
+    color: #fff;
+}
+.nav-link{
+    color: #fff;
+    font-size: 1.4rem;
+    transition: all .5s ease-in-out;
+    font-family: 'Raleway', sans-serif;
+}
+.nav-principal{
+    background-image: url(../img/border_horizontal.png),url(../img/border_horizontal.png);
+    background-repeat: repeat-x;
+    background-position: 0px top, 0px bottom;
+}
+.nav-link:hover{
+    background-color: rgba(194, 152, 16, 0.644);
+    color: #000;
+}
+/*carousel*/
+.carousel-item h3{
+    background-color: beige;
+    color: #000;
+    text-transform: uppercase;
+    height: 55px;
+   
+}
+/*Tarjetas*/
+.card h5{
+    text-transform: uppercase;
+}
+.card img{
+    height: 300px;
+    width: 320px;
+    margin: 8px;
+}
+.fondo{
+    background-image: url(../img/2.jpg);
+    height: 50vh;
+    background-blend-mode: soft-light;
+    background-color: rgba(0, 0, 0, 0.438);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg-warning{
+    background-color:  rgb(163, 137, 50) !important;
+    color: white;
+}
+
+/* Table */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+  
+.btn-success{
+    background-color: rgb(156, 0, 141);
+    border-color: transparent;
+}
+
+.btn-success:hover{
+    background-color: rgb(163, 137, 50);
+    border-color: transparent;
+}
+
+.btn-success:active{
+    background-color: rgb(163, 137, 50) !important;
+    border-color: transparent !important;
+    box-shadow: 0 0 !important;
+}
+
+.icon{
+    color: rgb(156, 0, 141);
+}
